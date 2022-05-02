@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <title>Criptografia</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="cabecalho">
+            <h1><a href="https://www.alura.com.br/"><img src="img/alura.jpg" class="logo-principal">lura</a></h1>
+            <nav>
+                <ul>
+                    <li>
+                        <p>Outros projetos do Rai: </p< /li>
+                    <li><a href="https://github.com/RaiSMel/Html-CPF-validador">validador CPF</a></li>
+                    <li><a href="https://github.com/RaiSMel/banco">Orientação Objeto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <hr>
+
+    <main>
+
+        <section class="principal">
+
+
+            <h2 class="titulos-pagina">projeto Criptográfia</h2>
+
+            <div class="separar-textos">
+                <p>Texto a ser modificado</p>
+                <textarea id="texto-colocado" type="text"
+                    placeholder="✯Colocar texto sem letras maiúsculas e sem caracteres especiais✯"></textarea>
+            </div>
+
+            <div class="separar-textos">
+                <p>Texto modificado</p>
+                <textarea id="texto-formatado" type="text" disabled></textarea>
+            </div>
+
+
+            <button onclick="criptografia()">Codificar</button>
+            <button onclick="descriptografia()">Descodificar</button>
+            <button onclick="copiar()">Copiar</button>
+            <script type="text/javascript" src="js/back-end.js"></script>
+
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="alinha-footer">
+
+            <div class="direitos-alinhamento">
+
+                <p>&copy; Desenvolvido por Rai com base nos ensinamentos da <a
+                        href="https://www.alura.com.br/">Alura</a></p>
+
+            </div>
+
+            <div class="portofolio-alinhamento">
+
+                <p>Portifólios</p>
+                <a href="https://www.linkedin.com/in/rai-mello-762a96168/"><img class="itens-rodape"
+                        src="img/linkedin.jpg" alt="logo do linkedin"></a>
+                <a href="https://github.com/RaiSMel"><img class="itens-rodape" src="img/github.png"
+                        alt="logo do github"></a>
+
+            </div>
+
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
