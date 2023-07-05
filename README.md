@@ -10,3 +10,11 @@ dando valor a cores coloridas apresentadas na logo da Alura, tentei usar bastant
 o que está sobre o cursor do mouse.
 
 #challengeonedecodificador2
+
+
+# Tecnologias usadas #
+
+![HTML5](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
+![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Trello](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white)
