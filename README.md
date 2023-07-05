@@ -11,7 +11,7 @@ o que está sobre o cursor do mouse. </p>
 
 #challengeonedecodificador2
 
-<p>Acesse o site através clicando<a href="https://raismel.github.io/Criptografia.github.io/"> Aqui</a></p>
+<p>Acesse o site clicando<a href="https://raismel.github.io/Criptografia.github.io/"> Aqui</a></p>
 
 ## O projeto foi criado com a IDE
 
