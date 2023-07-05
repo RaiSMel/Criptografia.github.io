@@ -3,9 +3,8 @@ font-family: 'Oswald', sans-serif;
 }
 
 header {
-    height: 150px;
     background: linear-gradient( black 50%, gray);
-    padding: 2.5em 1em 0;
+    padding: 2.5em 1em;
     color: #ffffff;
 }
 
@@ -16,8 +15,8 @@ header h1 {
 }
 
 .logo-principal {
-    width: 100px;
-    height: 100px;
+    width: 30px;
+    height: 45px;
     display: inline-block;
 }
 
@@ -42,32 +41,6 @@ header h1 a{
  -webkit-text-fill-color: transparent;
 }
 
-header nav li {
-    
-    display: inline-block;
-    margin-left: 3em;
-}
-
-header nav li p{
-    position: absolute;
-    top: -1.5em;
-    right: 3em;
-    text-decoration: none;
-    color: lightgray;
-    font-weight: bold;
-    font-size: 200%;
-}
-
-header nav li a{
-    text-decoration: none;
-    color: lightgray;
-    font-weight: bold;
-    font-size: 2em;
-}
-
-header nav li a:hover{
-    text-decoration: 1px underline white;
-}
 
 hr {
     margin: 0;
@@ -77,8 +50,8 @@ hr {
 }
 
 main {
-    padding: 4em;
     background: linear-gradient(#777777, #ffffff);
+    display: flex;
 }
 
 .titulos-pagina {
@@ -91,7 +64,6 @@ main {
     width: 800px;
     margin: 0 auto;
     text-align: center;
-    padding: 2em 2em;
 }
 
 
@@ -188,7 +160,7 @@ button:active {
 footer {
     background: linear-gradient(to top ,black 50%, gray);;
     width: 100%;
-    height: 100px;
+    height: 120px;
 }
 
 footer p {
@@ -211,7 +183,7 @@ footer p a:hover {
 .direitos-alinhamento {
     position: absolute;
     display: inline-block;
-    margin: 0 0 0 15% ;
+    margin: 0 17% ;
 }
 
 .portofolio-alinhamento {
@@ -235,7 +207,6 @@ footer p a:hover {
 .portofolio-alinhamento p {
     padding: 1em 1.4em 0;
     font-size: 0.5em;
-
 }
 
 .itens-rodape {
